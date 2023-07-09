@@ -25,7 +25,7 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "Szemul\\Framework\\Test\\": "tests"
+      "Szemul\\MonologBootstrap\\Test\\": "tests"
     }
   },
   "config": {
