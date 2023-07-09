@@ -1,0 +1,36 @@
+{
+  "name": "szemul/monolog-bootstrap",
+  "description": "Bootstrap class to boot szemul/monolog-logging-context",
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "require": {
+    "php": "^8.1",
+    "monolog/monolog": "^3.0.0",
+    "szemul/bootstrap": "^1.0.0",
+    "szemul/config": "^1.0.1",
+    "szemul/logging-error-handling-context": "^1.0.0",
+    "szemul/monolog-logging-context": "^2.0.0"
+  },
+  "require-dev": {
+    "friendsofphp/php-cs-fixer": "^3.0.0",
+    "jetbrains/phpstorm-attributes": "^1.0",
+    "mockery/mockery": "^1.0",
+    "phpstan/phpstan": "^1.4.0",
+    "phpunit/phpunit": "^9.5.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Szemul\\MonologBootstrap\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Szemul\\Framework\\Test\\": "tests"
+    }
+  },
+  "config": {
+    "sort-packages": true,
+    "optimize-autoloader": true,
+    "allow-plugins": false
+  }
+}
